@@ -10,7 +10,7 @@ When instructions conflict, apply them in the following order, from highest to l
    - `editorial-preferences.md`;
    - applicable patterns in `translation-examples.md`.
 4. Established domain-specific conventions required by the subject matter.
-5. Core rules in `translation-policy.md`, `execution-policy.md`, and `qa-policy.md`.
+5. Core translation requirements in `SKILL.md` and the rules in `execution-policy.md` and `qa-policy.md`.
 6. General professional translation conventions.
 
 A more specific instruction takes precedence over a more general one unless it would create an objective error, contradict the source meaning, or corrupt protected content.
