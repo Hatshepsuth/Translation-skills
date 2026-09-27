@@ -105,4 +105,4 @@ Users may add any subset of the four optional files. There is no requirement to 
 
 If both `terminology.json` and `terminology.md` define the same terminology, keep the entries consistent. `terminology.json` is treated as the canonical machine-readable source for explicit mandatory, preferred, allowed, or forbidden terminology constraints.
 
-Optional customization supplements the skill's core rules. Instruction priority is determined by the skill's `references/precedence-rules.md`.
+Optional customization supplements the skill's core rules. Instruction priority is defined directly in the skill's `SKILL.md`.
