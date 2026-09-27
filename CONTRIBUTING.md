@@ -25,7 +25,6 @@ SKILL.md
 agents/openai.yaml
 assets/icon.svg
 references/routing-matrix.md
-references/precedence-rules.md
 references/execution-policy.md
 references/qa-policy.md
 references/terminology-schema.json
