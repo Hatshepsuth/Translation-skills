@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "english-us-translation terminology",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "source",
+      "preferred"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "description": "Optional stable local identifier."
+      },
+      "source_language": {
+        "type": "string",
+        "description": "Optional BCP 47 language tag for the source language."
+      },
+      "target_language": {
+        "type": "string",
+        "default": "en-US",
+        "description": "Target language; normally en-US."
+      },
+      "source": {
+        "oneOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1
+          }
+        ],
+        "description": "Source term or source forms."
+      },
+      "preferred": {
+        "oneOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1
+          }
+        ],
+        "description": "Preferred American English equivalent or equivalents."
+      },
+      "allowed": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "Other explicitly allowed equivalents."
+      },
+      "forbidden": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "Explicitly prohibited equivalents."
+      },
+      "status": {
+        "type": "string",
+        "enum": [
+          "mandatory",
+          "preferred",
+          "contextual",
+          "retain_source"
+        ],
+        "default": "preferred"
+      },
+      "case_sensitive": {
+        "type": "boolean",
+        "default": false
+      },
+      "conditions": {
+        "type": "string",
+        "description": "Context or scope conditions for this entry."
+      },
+      "notes": {
+        "type": "string",
+        "description": "Additional user guidance."
+      }
+    },
+    "additionalProperties": false
+  }
+}
