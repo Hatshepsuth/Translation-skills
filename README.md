@@ -24,7 +24,6 @@ Each standalone translation skill is expected to contain:
 - `references/routing-matrix.md` — scope and activation rules;
 - `references/precedence-rules.md` — instruction priority and conflict resolution;
 - `references/execution-policy.md` — translation workflow and output discipline;
-- `references/translation-policy.md` — core translation principles;
 - `references/qa-policy.md` — final bilingual translation QA;
 - `references/terminology-schema.json` — schema for optional machine-readable terminology customization.
 
