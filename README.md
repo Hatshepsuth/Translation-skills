@@ -22,7 +22,6 @@ Each standalone translation skill is expected to contain:
 - `agents/openai.yaml` — agent metadata;
 - `assets/icon.svg` — the skill icon;
 - `references/routing-matrix.md` — scope and activation rules;
-- `references/precedence-rules.md` — instruction priority and conflict resolution;
 - `references/execution-policy.md` — translation workflow and output discipline;
 - `references/qa-policy.md` — final bilingual translation QA;
 - `references/terminology-schema.json` — schema for optional machine-readable terminology customization.
@@ -31,7 +30,7 @@ Language-specific implementation details belong in the corresponding skill. Repo
 
 ## Ready to use by default
 
-No customization is required to use a skill from this repository. The core translation requirements, execution policy, routing rules, precedence rules, and final bilingual QA are included in the skill package.
+No customization is required to use a skill from this repository. The core translation requirements, instruction priority, execution policy, routing rules, and final bilingual QA are included in the skill package.
 
 A user can install a skill and start translating immediately.
 
@@ -44,7 +43,7 @@ Users who want to adapt a skill to their own terminology, house style, or prefer
 3. `references/editorial-preferences.md` — user-specific editorial, stylistic, typographic, or lexical preferences;
 4. `references/translation-examples.md` — examples of preferred translation behavior.
 
-These files are **not required and are not included as empty placeholders in the default skill package**. Users may add one, several, or all of them. If present, the skill applies their relevant contents according to its precedence rules.
+These files are **not required and are not included as empty placeholders in the default skill package**. Users may add one, several, or all of them. If present, the skill applies their relevant contents according to the instruction priority defined in `SKILL.md`.
 
 The included `references/terminology-schema.json` documents the supported structure for `terminology.json`.
 
