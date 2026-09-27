@@ -8,9 +8,13 @@ Each skill in this repository is designed for translation only. **MTPE, proofrea
 
 ## Available skills
 
-| Skill | Target language | Status |
-| --- | --- | --- |
-| `russian-translation` | Russian | Available |
+| Skill | Target language / locale | Source language | Status |
+| --- | --- | --- | --- |
+| `russian-translation` | Russian | Any | Available |
+| `english-uk-translation` | British English (en-GB) | Any | Available |
+| `english-us-translation` | American English (en-US) | Any | Available |
+
+The English skills are independent target-locale skills. They can translate from any source language and do not require a Russian-specific or other source-language companion skill. British English and American English are maintained separately so that spelling, punctuation, dates, vocabulary, typography, and other locale-specific conventions remain consistent.
 
 Additional target-language translation skills can be added under `skills/` using the same architecture.
 
