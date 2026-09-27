@@ -1,0 +1,8 @@
+interface:
+  display_name: "Russian translation"
+  short_description: "Standalone professional translation into Russian with optional custom references and final bilingual QA."
+  default_prompt: "Переведи текст на русский."
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true
