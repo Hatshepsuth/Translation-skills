@@ -1,0 +1,8 @@
+interface:
+  display_name: "English (US) translation"
+  short_description: "Standalone professional translation into American English (en-US) from any source language."
+  default_prompt: "Translate the text into American English."
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true
