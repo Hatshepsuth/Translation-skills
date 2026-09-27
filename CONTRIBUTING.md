@@ -27,7 +27,6 @@ assets/icon.svg
 references/routing-matrix.md
 references/precedence-rules.md
 references/execution-policy.md
-references/translation-policy.md
 references/qa-policy.md
 references/terminology-schema.json
 ```
