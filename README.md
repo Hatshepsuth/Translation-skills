@@ -31,7 +31,7 @@ Language-specific implementation details belong in the corresponding skill. Repo
 
 ## Ready to use by default
 
-No customization is required to use a skill from this repository. The core translation policy, execution policy, routing rules, precedence rules, and final bilingual QA are included in the skill package.
+No customization is required to use a skill from this repository. The core translation requirements, execution policy, routing rules, precedence rules, and final bilingual QA are included in the skill package.
 
 A user can install a skill and start translating immediately.
 
@@ -79,7 +79,7 @@ The repository follows several shared principles:
 - one standalone skill per target language or clearly defined target locale;
 - ready-to-use behavior without mandatory user configuration;
 - translation-only scope;
-- explicit separation of execution, translation policy, QA, terminology, and optional editorial preferences;
+- explicit separation of execution, QA, terminology, and optional editorial preferences;
 - silent final bilingual QA before returning a translation;
 - personal, client-specific, and project-specific preferences kept out of the public core;
 - optional customization through dedicated reference files rather than by rewriting core policy files.
