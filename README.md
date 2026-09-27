@@ -6,39 +6,6 @@ Each skill is designed to be **ready to use immediately after installation**, wi
 
 Each skill in this repository is designed for translation only. **MTPE, proofreading, editing, revision, linguistic review, and monolingual rewriting are separate types of work and are outside the scope of these translation skills.** They should be implemented as separate skills with their own execution and QA logic.
 
-## Repository structure
-
-This repository separates human-facing repository files from installable skill packages:
-
-```text
-repository/
-├── README.md
-├── CHANGELOG.md
-├── CONTRIBUTING.md
-├── LICENSE
-├── docs/
-│   ├── customization.md
-│   └── prompt-examples.md
-└── skills/
-    ├── russian-translation/
-    │   ├── SKILL.md
-    │   ├── agents/
-    │   │   └── openai.yaml
-    │   ├── assets/
-    │   │   └── icon.svg
-    │   └── references/
-    │       ├── routing-matrix.md
-    │       ├── precedence-rules.md
-    │       ├── execution-policy.md
-    │       ├── translation-policy.md
-    │       ├── qa-policy.md
-    │       └── terminology-schema.json
-    └── <other-target-language-skill>/
-        └── ...
-```
-
-Only the directory of the selected skill under `skills/` belongs to that installable skill package. Repository-level documentation, licensing, contribution guidance, and changelog files are not runtime skill files.
-
 ## Available skills
 
 | Skill | Target language | Status |
