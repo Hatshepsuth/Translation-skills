@@ -8,7 +8,7 @@ The project follows semantic versioning for public releases.
 
 ### Added
 
-- Separate runtime files for routing, instruction precedence, execution, translation policy, and final bilingual QA.
+- Separate runtime files for routing, instruction precedence, execution, and final bilingual QA.
 - Machine-readable terminology schema for optional user-added terminology.
 - Optional customization support for user-added terminology, editorial preferences, and translation examples.
 - Repository documentation for optional customization and translation-only prompt examples.
@@ -22,7 +22,7 @@ The project follows semantic versioning for public releases.
 - Removed MTPE, proofreading, editing, and revision behavior from the skill scope.
 - Removed personal editorial preferences from the public core policy.
 - Made the public skill fully ready to use without mandatory customization or empty placeholder files.
-- Updated skill metadata to describe optional custom references and standalone QA.
+- Updated skill metadata to describe optional custom references and standalone QA.\n- Consolidated core translation requirements into `SKILL.md` and removed the separate `translation-policy.md` runtime file.
 
 ## [1.0.1]
 
