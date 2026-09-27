@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1254" height="1254" viewBox="0 0 1254 1254" role="img" aria-label="RU">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#54d6f7"/>
+      <stop offset="0.5" stop-color="#2589f7"/>
+      <stop offset="1" stop-color="#083de0"/>
+    </linearGradient>
+    <linearGradient id="wave1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#79e5fb" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#79e5fb" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="wave2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6ebefb" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#6ebefb" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="50" y="50" width="1154" height="1154" rx="245" fill="url(#bg)"/>
+  <path d="M50 395C255 386 462 285 527 50H50Z" fill="url(#wave1)"/>
+  <path d="M50 714c230 54 420 8 592-129 191-152 315-284 562-341v368c-179 64-267 205-454 322-227 142-472 113-700 45Z" fill="url(#wave2)"/>
+  <path d="M50 1000c247-95 493-43 738 79 100 50 190 86 279 125H295c-126 0-245-70-245-204Z" fill="#49b9fa" opacity=".5"/>
+  <text x="627" y="790" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="410" font-weight="700" fill="#fff">RU</text>
+</svg>
