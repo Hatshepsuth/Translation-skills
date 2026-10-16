@@ -59,6 +59,15 @@ Verify:
 - applicable rules from `editorial-preferences.md`, if that optional file is present;
 - applicable patterns from `translation-examples.md`, if that optional file is present and they do not conflict with higher-priority instructions.
 
+## Mandatory Russian forward-slash QA
+
+Perform this check **on every Russian target segment** immediately before final output, including headings, labels, and lists:
+
+1. Examine each forward slash `/` that joins alternatives or parallel items in ordinary Russian text. Confirm there is **no whitespace directly before or after it**, including ordinary spaces, tabs, non-breaking spaces (U+00A0), or narrow no-break spaces (U+202F). Correct `товары / услуги`, `товары/ услуги`, and `товары /услуги` to `товары/услуги`.
+2. Examine Russian words immediately after each applicable slash. If the following word is an **ordinary common noun**, its first letter must be **lowercase**, even in headings: `Документы/приложения`, not `Документы/Приложения`.
+3. **Do not** lowercase proper names, acronyms, legally prescribed names, brand/trademark spellings, or any protected text. Respect mandatory source-to-target ALL CAPS: `ФАЙЛЫ/НАСТРОЙКИ` remains uppercase when required by the source. Exclude URLs, filesystem paths, code, markup, regexes, placeholders, variables, and technical identifiers from mechanical slash normalization.
+4. Recheck any correction against the source and higher-priority client/project instructions. Change **only** confirmed slash-rule violations; do not introduce other stylistic changes.
+
 ## 6. Final output compliance
 
 Before returning the result, verify that:
